@@ -1,0 +1,107 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 20px;
+  color: #000;
+}
+
+.container {
+  background-color: rgb(0, 61, 228);
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.title {
+  color: rgb(0, 61, 228);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+/* Parte da tela principal */
+.box {
+  background-color: #0400ff;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.pix-btn {
+  margin-top: 10px;
+  background-color: #4e4e4e;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.cofrinho {
+  background-color: #0400ff;
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cofrinho-text {
+  font-size: 14px;
+}
+
+.pig {
+  font-size: 40px;
+}
+
+/* Nova seção: Pagar com Pix */
+.pix-section {
+  margin-top: 40px;
+}
+
+.pix-section h3 {
+  text-align: center;
+}
+
+.pix-question {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.colar {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.pix-input {
+  width: 100%;
+  padding: 10px;
+  background-color: #adadad;
+  border: none;
+  margin-bottom: 30px;
+}
+
+.outros {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.pix-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pix-box {
+  background-color: #adadad;
+  padding: 20px;
+  width: 45%;
+  text-align: center;
+  border: 1px solid #000000;
+}
+
